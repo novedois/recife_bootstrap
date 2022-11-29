@@ -1,0 +1,24 @@
+.img_main {
+    background-image: url('rec_01.jpg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_text {
+    width: 80%;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 900px) {
+    .main_text {
+        width: 100%;
+    }
+}
