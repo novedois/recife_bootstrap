@@ -17,6 +17,42 @@
     object-position: center;
 }
 
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formulario_caixa input,
+.formulario_caixa textarea {
+    width: 30vw;
+}
+
+footer {
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_caixa {
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.footer_caixa a {
+    font-size: 1.8em;
+}
+
+button {
+
+}
+
 @media (max-width: 900px) {
     .main_text {
         width: 100%;
